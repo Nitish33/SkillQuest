@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gLogin"
+        android:title="Login/Register">
+
+        <menu>
+
+            <item android:title="Login"
+                android:id="@+id/login"
+                android:icon="@drawable/enter"
+                />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/allCategory"
+        android:title="All Category"
+        android:icon="@drawable/category"
+        />
+
+    <item
+        android:id="@+id/allTraining"
+        android:title="All Training"
+        android:icon="@drawable/training"
+        />
+
+    <item
+        android:id="@+id/gLogout"
+        android:title="Logout">
+
+        <menu>
+            <item
+                android:title="Logout"
+                android:icon="@drawable/exit"
+                android:id="@+id/logout"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Others">
+
+        <menu>
+
+            <item android:title="Contact Us"
+                android:id="@+id/contactUs"
+                />
+
+
+            <item android:title="About Us"
+                android:id="@+id/aboutUs"
+                />
+
+
+            <item android:title="Terms and Conditions"
+                android:id="@+id/terms"
+                />
+
+            <item android:title="FAQ"
+                android:id="@+id/faq"
+                />
+
+        </menu>
+    </item>
+</menu>

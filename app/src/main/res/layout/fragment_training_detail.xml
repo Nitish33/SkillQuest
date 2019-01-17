@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dance" />
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingLeft="5dp"
+                    android:text="Title......."
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingLeft="5dp"
+                    android:text="Description......."
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.design.card.MaterialCardView>
+
+        <android.support.design.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/border_color"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="Training Features"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Start From" />
+
+
+                    <TextView
+                        android:id="@+id/startFrom"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Availability" />
+
+
+                    <TextView
+                        android:id="@+id/availability"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Duration"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/duration"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Price"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+
+                        android:text="Category" />
+
+
+                    <TextView
+                        android:id="@+id/category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Start From"
+                        android:textColor="@color/link" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Location" />
+
+
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.design.card.MaterialCardView>
+
+
+        <android.support.design.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto_regular"
+                    android:background="@color/border_color"
+                    android:text="Trainer Details"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Name" />
+
+
+                    <TextView
+                        android:id="@+id/trainerName"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="wrap_content"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Qualification" />
+
+
+
+                    <TextView
+                        android:id="@+id/qualification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:layout_height="wrap_content"
+                        android:text="Expert At" />
+
+
+                    <TextView
+                        android:id="@+id/expertAt"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:layout_height="wrap_content"
+                        android:text="Experiance" />
+
+
+                    <TextView
+                        android:id="@+id/experiance"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="wrap_content"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Description" />
+
+
+                    <TextView
+                        android:id="@+id/trainerDescription"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Start From" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Other Courses" />
+
+
+                    <TextView
+                        android:id="@+id/otherCourses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Click on this link to found out more from trainer"
+                        android:textColor="@color/link" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.design.card.MaterialCardView>
+
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Contact for this course"
+            app:cornerRadius="10dp" />
+
+
+    </LinearLayout>
+</ScrollView>

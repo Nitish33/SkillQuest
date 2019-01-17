@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="screen1Color">#455a64</color>
+    <color name="screen2Color">#8d6e63</color>
+    <color name="screen3Color">#1a237e</color>
+    <color name="white">#ffff</color>
+    <color name="black">#000</color>
+    <color name="link">#0000FF</color>
+    <color name="green">#fb78ab14</color>
+
+    <color name="secondaryTextColor">#9E9E9E</color>
+
+
+    <color name="border_color">#d7ccc8</color>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        android:layout_margin="5dp"
+        app:cardElevation="3dp"
+        app:contentPadding="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/image"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dance"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:text="Here Goes Title...."
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/image"
+                android:maxLines="1"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:textColor="@color/secondaryTextColor"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_toRightOf="@id/image"
+                android:layout_below="@+id/title"
+                android:text="line 1
+
+line 2
+line 3"
+                />
+
+
+        </RelativeLayout>
+    </android.support.design.card.MaterialCardView>
+
+</LinearLayout>
